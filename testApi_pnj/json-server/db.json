@@ -1,1 +1,136 @@
-{"products":[{"id":1,"name":"sản phẩm 1","price":1200,"description":"đây là sản phẩm 1"},{"id":2,"name":"sản phẩm 2","price":2200,"description":"đây là sản phẩm 2"},{"id":3,"name":"sản phẩm 3","price":3300,"description":"đây là sản phẩm 3"},{"name":"sản phẩm 4","price":4300,"description":"đây là sản phẩm 4","id":4},{"name":"sản phẩm 5","price":4300,"description":"đây là sản phẩm 5","id":5}],"orders":[{"id":1,"order_item":{"id":1,"name":"sản phẩm 1","price":1200,"description":"đây là sản phẩm 1"},"customer":{"name":"người mua","address":"vietnam","email":"nguoimua@gmail.com","sdt":"09340854012"},"quantity":1,"timestamp":1656600457265},{"id":2,"order_item":{"id":1,"name":"sản phẩm 1","price":1200,"description":"đây là sản phẩm 1"},"customer":{"name":"người mua","address":"vietnam","email":"nguoimua@gmail.com","sdt":"09340854012"},"quantity":1,"timestamp":1656601089541},{"id":3,"order_item":{"id":1,"name":"sản phẩm 1","price":1200,"description":"đây là sản phẩm 1"},"customer":{"name":"người mua","address":"vietnam","email":"nguoimua@gmail.com","sdt":"09340854012"},"quantity":1,"timestamp":1656601316787},{"id":4,"order_item":{"id":1,"name":"sản phẩm 1","price":1200,"description":"đây là sản phẩm 1"},"customer":{"name":"người mua","address":"vietnam","email":"nguoimua@gmail.com","sdt":"09340854012"},"quantity":1,"timestamp":1656828246600}]}
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "vòng tay",
+      "price": 2200,
+      "description": "đây là sản phẩm 2",
+      "thuonghieu": "thuonghieu2",
+      "chatlieu": "bạc"
+    },
+    {
+      "id": 3,
+      "name": "sản phẩm 3",
+      "price": 3300,
+      "description": "đây là sản phẩm 3",
+      "thuonghieu": "thuonghieu1",
+      "chatlieu": "vàng"
+    },
+    {
+      "name": "sản phẩm 4",
+      "price": 4300,
+      "description": "đây là sản phẩm 4",
+      "thuonghieu": "thuonghieu2",
+      "chatlieu": "bạc",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "order_item": {
+        "id": 1,
+        "name": "sản phẩm 1",
+        "price": 1200,
+        "description": "đây là sản phẩm 1"
+      },
+      "customer": {
+        "name": "người mua dã chỉnh sửa",
+        "address": "vietnam",
+        "email": "nguoimua@gmail.com",
+        "sdt": "09340854012"
+      },
+      "quantity": 1,
+      "timestamp": 1656600457265
+    },
+    {
+      "id": 2,
+      "order_item": {
+        "id": 1,
+        "name": "sản phẩm 1",
+        "price": 1200,
+        "description": "đây là sản phẩm 1"
+      },
+      "customer": {
+        "name": "người mua",
+        "address": "vietnam",
+        "email": "nguoimua@gmail.com",
+        "sdt": "09340854012"
+      },
+      "quantity": 1,
+      "timestamp": 1656601089541
+    },
+    {
+      "id": 3,
+      "order_item": {
+        "id": 1,
+        "name": "sản phẩm 1",
+        "price": 1200,
+        "description": "đây là sản phẩm 1"
+      },
+      "customer": {
+        "name": "người mua",
+        "address": "vietnam",
+        "email": "nguoimua@gmail.com",
+        "sdt": "09340854012"
+      },
+      "quantity": 1,
+      "timestamp": 1656601316787
+    },
+    {
+      "id": 4,
+      "order_item": {
+        "name": "sản phẩm mới",
+        "price": 20000,
+        "description": "đây là sản phẩm mới",
+        "id": 6
+      },
+      "customer": {
+        "name": "người mua6",
+        "address": "vietnam6",
+        "email": "nguoimua@gmail.com6",
+        "sdt": "09340854012"
+      },
+      "quantity": 1,
+      "timestamp": 1657813067451
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "username": "nguoidung2",
+      "password": "vietnam2",
+      "email": "nguoimua2@gmail.com"
+    },
+    {
+      "id": 3,
+      "username": "nguyenbanhan",
+      "email": "nguyenbanhan1@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 4,
+      "username": "nguyenbanhan2",
+      "email": "nguyenbanhan2@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "username": "nguyenbanhan2",
+      "email": "nguyenbanhan3@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 6,
+      "username": "nguyenbanhan2",
+      "email": "nguyenbanhan4@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 7,
+      "username": "nguyenbanhan2",
+      "email": "nguyenbanhan5@gmail.com",
+      "password": "123456"
+    }
+  ]
+}
